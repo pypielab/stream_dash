@@ -1,0 +1,23 @@
+# 환경변수 / API 키
+.streamlit/secrets.toml
+
+# 다운로드된 보고서
+*_REPORT/
+reports/
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+.env
+```
+
+---
+
+**Streamlit Cloud에 배포할 경우**에는 secrets.toml 없이도 됩니다. 대시보드에서 직접 입력할 수 있어요.
+```
+Streamlit Cloud 앱 대시보드
+→ 해당 앱 선택
+→ Settings
+→ Secrets 탭
+→ secrets.toml 내용 그대로 붙여넣기
